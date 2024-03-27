@@ -1,10 +1,10 @@
 {
-    "name": "muqsit/asynciterator",
+    "name": "nethergamesmc/asynciterator",
     "description": "A virion that simplifies writing tasks that traverse iterators",
     "type": "library",
     "license": "GPL-3.0",
-    "require": {
-        "pocketmine/pocketmine-mp": "^5.0.0"
+    "require-dev": {
+        "nethergamesmc/pocketmine-mp": "dev-stable"
     },
     "autoload": {
         "classmap": ["src"]
@@ -14,6 +14,9 @@
             "name": "Muqsit",
             "email": "notmuqsit@gmail.com"
         }
+    ],
+    "repositories": [
+        { "type": "vcs", "url": "git@github.com:NetherGamesMC/PocketMine-MP.git" }
     ],
     "extra": {
         "virion": {
